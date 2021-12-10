@@ -1,0 +1,5 @@
+django
+djangorestframework
+black
+mypy
+psycopg2-binary
