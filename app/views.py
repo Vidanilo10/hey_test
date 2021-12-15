@@ -3,6 +3,6 @@ from rest_framework.response import Response
 from . import fibonacci_calculate
 
 @api_view()
-def hello_world(request):
+def fibonacci_calculate_view(request):
     f = fibonacci_calculate.main()
     return Response({"For fibonacci serie the value is: ": f})

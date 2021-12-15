@@ -1,6 +1,6 @@
 from django.urls import path
-from . views import hello_world
+from . views import fibonacci_calculate_view
 
 urlpatterns = [
-    path('', hello_world),
+    path('', fibonacci_calculate_view),
 ]
